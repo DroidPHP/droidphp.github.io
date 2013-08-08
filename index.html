@@ -20,7 +20,7 @@
 	<!-- HEADER -->
 	<div id="header_wrap" class="outer">
 		<header class="inner">
-			<a id="forkme_banner" href="https://github.com/DroidPHP/DroidPHP">View
+			<a id="forkme_banner" onclick="_gaq.push(['_trackEvent', 'DP actions', 'DP links', 'DP Project']);" href="https://github.com/DroidPHP/DroidPHP">View
 				on GitHub</a>
 				      <div class="bs-social">
   <ul class="bs-social-buttons">
@@ -38,9 +38,9 @@
 
 			<section id="downloads">
 				<a class="zip_download_link"
-					href="https://github.com/DroidPHP/DroidPHP/zipball/master">Download
+					href="https://github.com/DroidPHP/DroidPHP/zipball/master" onclick="_gaq.push(['_trackEvent', 'DP actions', 'DP links', 'DP download zipball']);">Download
 					this project as a .zip file</a> <a class="tar_download_link"
-					href="https://github.com/DroidPHP/DroidPHP/tarball/master">Download
+					href="https://github.com/DroidPHP/DroidPHP/tarball/master" onclick="_gaq.push(['_trackEvent', 'DP actions', 'DP links', 'DP download tarball']);">Download
 					this project as a tar.gz file</a>
 			</section>
 		</header>
@@ -76,7 +76,7 @@
 			</ul>
 			<p>Problem on compiling / not a developer</p>
 			<ul>
-				<li>Download APK Version from box.com <code><a href="https://app.box.com/s/wt80026oy26k1xf4y5xv">https://app.box.com/s/wt80026oy26k1xf4y5xv</a></code></li>
+				<li>Download APK Version from box.com <code><a onclick="_gaq.push(['_trackEvent', 'DP actions', 'DP links', 'APK Build box']);" href="https://app.box.com/s/wt80026oy26k1xf4y5xv">https://app.box.com/s/wt80026oy26k1xf4y5xv</a></code></li>
 			</ul>
 
 			<h3>News</h3>
@@ -221,7 +221,7 @@
 				Check out the documentation at <a
 					href="http://github.com/droidphp/droidphp/wiki">http://github.com/DroidPHP/DroidPHP/wiki</a><br />
 					
-				The mailing list is available at <a
+				The mailing list is available at <a onclick="_gaq.push(['_trackEvent', 'DP actions', 'DP links', 'DP mailing']);"
 					href="http://groups.google.com/group/droidphp">http://groups.google.com/group/droidphp</a>
 			</p>
 
@@ -236,7 +236,16 @@
 			</p>
 		</footer>
 	</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-40298268-2', 'droidphp.github.io');
+  ga('send', 'pageview');
+
+</script>
 
 
 </body>
